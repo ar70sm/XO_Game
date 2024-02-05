@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>xo game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p>the player is: <span class="player">O</span></p>
+      <div class="xoBoxes">
+        <div class="xoBox" xoColumn="0" xoRow="0" xoState="-"></div>
+        <div class="xoBox" xoColumn="0" xoRow="1" xoState="-"></div>
+        <div class="xoBox" xoColumn="0" xoRow="2" xoState="-"></div>
+        <div class="xoBox" xoColumn="1" xoRow="0" xoState="-"></div>
+        <div class="xoBox" xoColumn="1" xoRow="1" xoState="-"></div>
+        <div class="xoBox" xoColumn="1" xoRow="2" xoState="-"></div>
+        <div class="xoBox" xoColumn="2" xoRow="0" xoState="-"></div>
+        <div class="xoBox" xoColumn="2" xoRow="1" xoState="-"></div>
+        <div class="xoBox" xoColumn="2" xoRow="2" xoState="-"></div>
+      </div>
+      <button class="back">Back</button>
+      <button class="front">Front</button>
+    </div>
+    <div class="results appear">
+      <div class="box">
+        <p class="winner"></p>
+        <p>O Score : <span class="oScore">0</span></p>
+        <p>X Score : <span class="xScore">0</span></p>
+        <button class="repeat">Play</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
